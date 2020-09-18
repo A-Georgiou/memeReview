@@ -1,0 +1,40 @@
+
+html{
+    background-color: black;
+}
+
+.review-text{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+
+.meme-cent-1{
+    text-align: center;
+    margin: auto;
+}
+
+.review-form{
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+
+.rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+ }
+
+ .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+
+  .rating > span{
+      cursor: pointer;
+  }
